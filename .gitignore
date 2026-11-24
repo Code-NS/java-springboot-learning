@@ -1,0 +1,53 @@
+# Compiled class files and Maven build output
+**/target/
+target/
+*.class
+
+# Log files
+*.log
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Virtual Machine Crash Logs
+hs_err_pid*
+replay_pid*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and Editor Files
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.settings/
+.springBeans
+.sts4-cache
+
+# Database files
+**/db/
+*.db
+*.mv.db
+*.trace.db
+
+# Maven wrapper jar inclusion
+!.mvn/wrapper/maven-wrapper.jar
+!**/01-springbootweb/.mvn/wrapper/maven-wrapper.jar
